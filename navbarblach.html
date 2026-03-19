@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nav Bar</title>
+
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+            
+        }
+
+        body {
+            background: #e5e5e5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+        .img-logo{
+            border-radius: 100%;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            background: #1f1f1f;
+            padding: 10px 15px;
+            border-radius: 40px;
+            gap: 20px;
+        }
+
+        .logo {
+            background: white;
+            color: black;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: rgb(248, 246, 246);
+            font-size: 15px;
+            padding: 8px 10px;
+            border-radius: 10px;
+        }
+
+        .nav-links a:hover {
+            background: #a79b9b;
+        }
+
+        .nav-links a:focus {
+            background: #555;
+        }
+
+        .email {
+            background: white;
+            color: rgb(14, 1, 1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo"><img class="img-logo" src="./MUN.jpg" alt="MUN" height="100%"></div>
+
+        <ul class="nav-links">
+            <li><a href="#">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Address</a></li>
+        </ul>
+
+        <div class="email">sheikhumer8201@gmail.com</div>
+
+    </nav>
+
+</body>
+
+</html>

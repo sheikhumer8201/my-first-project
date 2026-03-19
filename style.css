@@ -1,0 +1,134 @@
+.navbar {
+            display: flex;
+              justify-content:space-around;
+              gap:20px;
+            align-items: center;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 40px;
+            border-color: white;
+          
+        }
+
+        .nav-links {
+            color: Solid black;
+            display:flex;
+            font: size 15px;
+            justify-content: space-between;
+            gap: 30px;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 8px 10px;
+            border-radius: 10px;
+        
+        }
+        .nav-links>a{
+            text-decoration:none;
+            color: black;
+        }
+
+        .nav-links :hover {
+            background: whitesmoke;
+            border-radius: 5px;
+        }
+
+        .nav-links :focus {
+            background: green;
+            border-radius: 5px;
+        }
+        .login{
+            display: flex;
+            gap: 5px;
+        }
+        .button{
+            background-color: green;
+            color: white;
+            width:60px;
+            text-align:center;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .button2{
+            background-color: white;
+            color: green;
+            text-align:center;
+        }
+        .pg1{
+         display:flex;
+         justify-content: space-between;
+         align-items:center;
+         text-decoration: none;
+         padding: 5px;
+         margin: 5px;
+        }
+        .pg1-right h1{
+            color: black;
+        }
+        .pg1-right h1 span{
+            color: green;
+        }
+        .pg1customization{
+            margin-left: 120px;
+            margin-right: 150px;
+        }
+        .pg2{
+            display:flex;
+            flex-direction:column;
+            text-decoration:none;
+            align-items:center;
+        }
+        .logo{
+            display:flex;
+            justify-content:space-evenly;
+            flex-direction:Row;
+            text-decoration:none;
+            align-items:none;
+        }
+        .pg3{
+            display:flex;
+            align-items:center;
+            text-align:center;
+            text-decoration:none;
+            flex-direction:column;
+            font: size 36px;
+            font-weight: 600px;
+            gap: 10px;
+        }
+        .pg4{
+            display:flex;
+            align-items:center;
+            text-decoration:none;
+            margin-left: 220px;
+            gap: 40px;
+            font-size: 12px;
+        }
+        .pg4customization{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            margin-left: 30px;
+            gap: 5px;
+            font-size: 12px;
+        }
+        .pg5{
+            display:flex;
+         justify-content: space-between;
+         align-items:center;
+         text-decoration: none;
+         padding: 5px;
+         margin-left: 200px;
+         margin-right: 200px;
+        }
+        .pg5-para{
+            color: grey;
+            font-size: 10px;
+        }
+        
+        
+
+
+
+
+
+        
+

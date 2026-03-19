@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nav Bar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #4a6cf7;
+            padding: 15px 30px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 8px 15px;
+            border-radius: 6px;
+        }
+
+
+
+        .nav-links a:hover {
+            background: whitesmoke;
+            color: #4a6cf7;
+        }
+
+
+
+        .nav-links a:focus {
+            background: #00db6e;
+        }
+
+
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .nav-links {
+            flex-direction: row;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .nav-links li {
+            margin: 8px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">UMT IT</div>
+
+        <ul class="nav-links">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</body>
+
+</html>
